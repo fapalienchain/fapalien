@@ -1,0 +1,25 @@
+<!DOCTYPE RCC><RCC version="1.0">
+    <qresource prefix="/translations">
+        <file alias="ar">locale/fapalien_ar.qm</file>
+        <file alias="bg">locale/fapalien_bg.qm</file>
+        <file alias="de">locale/fapalien_de.qm</file>
+        <file alias="en">locale/fapalien_en.qm</file>
+        <file alias="es">locale/fapalien_es.qm</file>
+        <file alias="fi">locale/fapalien_fi.qm</file>
+        <file alias="fr">locale/fapalien_fr.qm</file>
+        <file alias="it">locale/fapalien_it.qm</file>
+        <file alias="ja">locale/fapalien_ja.qm</file>
+        <file alias="ko">locale/fapalien_ko.qm</file>
+        <file alias="nl">locale/fapalien_nl.qm</file>
+        <file alias="pl">locale/fapalien_pl.qm</file>
+        <file alias="pt">locale/fapalien_pt.qm</file>
+        <file alias="ro">locale/fapalien_ro.qm</file>
+        <file alias="ru">locale/fapalien_ru.qm</file>
+        <file alias="sk">locale/fapalien_sk.qm</file>
+        <file alias="th">locale/fapalien_th.qm</file>
+        <file alias="tr">locale/fapalien_tr.qm</file>
+        <file alias="vi">locale/fapalien_vi.qm</file>
+        <file alias="zh_CN">locale/fapalien_zh_CN.qm</file>
+        <file alias="zh_TW">locale/fapalien_zh_TW.qm</file>
+    </qresource>
+</RCC>

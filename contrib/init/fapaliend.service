@@ -1,0 +1,22 @@
+[Unit]
+Description=Fapalien's distributed currency daemon
+After=network.target
+
+[Service]
+User=fapaliencore
+Group=fapaliencore
+
+Type=forking
+PIDFile=/var/lib/fapaliend/fapaliend.pid
+ExecStart=/usr/bin/fapaliend -daemon -pid=/var/lib/fapaliend/fapaliend.pid \
+-conf=/etc/fapaliencore/fapalien.conf -datadir=/var/lib/fapaliend -disablewallet
+
+Restart=always
+PrivateTmp=true
+TimeoutStopSec=60s
+TimeoutStartSec=2s
+StartLimitInterval=120s
+StartLimitBurst=5
+
+[Install]
+WantedBy=multi-user.target

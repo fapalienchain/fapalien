@@ -1,0 +1,6 @@
+usr/local/bin/fapalien-qt usr/bin
+share/pixmaps/fapalien32.xpm usr/share/pixmaps
+share/pixmaps/fapalien16.xpm usr/share/pixmaps
+share/pixmaps/fapalien128.png usr/share/pixmaps
+debian/fapalien-qt.desktop usr/share/applications
+debian/fapalien-qt.protocol usr/share/kde4/services/
